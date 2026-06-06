@@ -1,0 +1,17 @@
+CREATE DATABASE college;
+USE college;
+
+CREATE TABLE student(
+id INT PRIMARY KEY,
+name VARCHAR(50),
+age INT NOT NULL
+);
+DESCRIBE student;
+
+INSERT INTO student VALUES(1,"RAM",19);
+INSERT INTO student VALUES(2,"HARI",20);
+INSERT INTO student VALUES(3,"GITA",21);
+INSERT INTO student VALUES(4,"SITA",22);
+
+SELECT * FROM student;
+
